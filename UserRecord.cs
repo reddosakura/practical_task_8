@@ -1,10 +1,10 @@
 ﻿namespace Score
 {
-    class UserScore
+    public class UserScore
     {
-        private static string username;
-        private static string scoremin;
-        private static string scoresec;
+        public string username;
+        public string scoremin;
+        public string scoresec;
         public UserScore(string _username, string _scoremin, string _scoresec)
         {
             username = _username;
